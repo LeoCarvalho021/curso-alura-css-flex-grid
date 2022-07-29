@@ -261,6 +261,10 @@ body {
     content: "\e90f";
     margin-right: 8px;    
 }
+.cartao__info--preco::before{
+    content: "\e905";
+    margin-right: 8px;
+}
 
 .cartao__botao {
     display: flex;
@@ -276,6 +280,10 @@ body {
 
 .cartao__botao--play::before {
     content: "\e90b";
+    font-size: 24px;
+}
+.cartao__botao--comprar::before{
+    content: "\e901";
     font-size: 24px;
 }
 
